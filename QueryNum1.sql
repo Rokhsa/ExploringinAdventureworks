@@ -21,6 +21,7 @@ Select *
 From ComponentUsed;
 
 
+
 --Now We Use our TVF
 Select ProductID, Name, ComponentID, productAssemblyID
 From dbo.ComponentUsedIn(1)
